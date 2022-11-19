@@ -5,6 +5,42 @@ html { box-sizing: border-box; }
 body {
 	margin: 0;
 	font-family: 'Source Sans Pro', sans-serif;
+	color: white;
+}
+
+h1,
+h2 {
+	margin: 0;
+}
+
+.text {
+	display: flex;
+	justify-content: space-between;
+}
+
+.salat {
+	background: black url(images/salat.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.chlebicek {
+	background: black url(images/chlebicek.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.tacos {
+	background: black url(images/tacos.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.cizrna {
+	background: black url(images/cizrna.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.burger {
+	background: black url(images/burger.jpg) no-repeat center;
+	background-size: cover;
 }
 
 .paticka {
@@ -32,4 +68,10 @@ Nastav je receptům jako obrázky na pozadí (tj. nepřidávej je jako <img> do 
 
 Na rozložení prvků NEPOUŽÍVEJ absolutní pozicování, ale pouze flexboxy.
 Flexboxy mohou být vnořené do sebe, klidně několikrát.
+
+	background-color: black; 
+	background-image: url(images/salat.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 */
